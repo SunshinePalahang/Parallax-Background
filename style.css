@@ -1,0 +1,53 @@
+#canvas1{
+	position:absolute;
+	width: 1536px;
+	height: 713px;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+.range{
+	height: 5px;
+	width: 120px;
+	background: #ffcfa9;
+	border-radius: 10px;
+	padding: 30px;
+	position: absolute;
+}
+.range .sliderValue{
+	position: absolute;
+	width: 100%;
+	left: 47%;
+	top: -2px;
+	color: #f5890d;
+}
+
+
+.range .field{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.range .field input{
+	height: 3px;
+	width: 100%;
+	background: #ddd;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	z-index: 2;
+}
+.range .field .value{
+	position: absolute;
+	font-size: 18px;
+	font-weight: 600;
+	color:#f5890d;
+}
+.range .field .value.left{
+	left:-22px;
+}
+.range .field .value.right{
+	right:-22px;
+}
